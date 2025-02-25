@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "tech-trends-chatbot-backend"
+name = "ai-chatbot-backend"
 version = "0.1.0"
 description = ""
-authors = ["ruizguille <guillermo@codeawake.com>"]
+authors = ["aamir <amirsohailali123@gmail.com>"]
 packages = [{include = "app"}]
 
 [tool.poetry.dependencies]
