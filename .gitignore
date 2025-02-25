@@ -1,12 +1,5 @@
-node_modules
-.env
-/bcakend/.env
+# Ignore environment files
+*.env
+*.env.example
+/backend/.env
 /frontend/.env
-venv
-*.pyc
-__pycache__
-/db/*
-!/db/*/
-!/db/*
-/src/components/pyautogui/screenshots/*.png
-.DS_Store
