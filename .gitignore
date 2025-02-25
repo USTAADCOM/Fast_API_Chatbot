@@ -1,0 +1,10 @@
+node_modules
+.env
+venv
+*.pyc
+__pycache__
+/db/*
+!/db/*/
+!/db/*
+/src/components/pyautogui/screenshots/*.png
+.DS_Store
