@@ -9,7 +9,7 @@ async def export_chats(export_dir=settings.EXPORT_DIR, iso_format=True):
     print('Exporting chats to JSON')
     file_path = os.path.join(export_dir, 'chats.json')
     async with get_redis() as rdb:
-        chats = await get_all_chats(rdb)
+        chats = await get_all_chats(rdb, "org_124")
         if iso_format:
             for chat in chats:
                 chat['created'] = datetime.fromtimestamp(chat['created'], tz=UTC).isoformat()

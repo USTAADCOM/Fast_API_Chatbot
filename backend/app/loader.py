@@ -62,7 +62,7 @@ async def load_knowledge_base():
         await setup_db(rdb)
         chunks = await process_docs()
         print('\nAdding chunks to vector db')
-        await add_chunks_to_vector_db(rdb, chunks)
+        await add_chunks_to_vector_db(rdb, chunks, "org_123")
         print('\nKnowledge base loaded')
 
 def main():
